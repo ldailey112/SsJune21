@@ -8,3 +8,5 @@ GenerateRandom.java == Assignment2
 
 Part 2
 adder.java == Assignment1
+MaxNum.java == Assignment2
+
