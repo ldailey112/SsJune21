@@ -9,4 +9,5 @@ GenerateRandom.java == Assignment2
 Part 2
 adder.java == Assignment1
 MaxNum.java == Assignment2
+Shapes.java, Rectangle.java, Circle.java, Triangle.java == Assignment3
 
