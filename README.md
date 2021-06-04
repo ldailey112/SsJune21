@@ -15,3 +15,4 @@ Shapes.java, Rectangle.java, Circle.java, Triangle.java == Assignment3
 Part 3
 FileDirect.java == Assignment1
 AppendToFile == Assignment2
+GetOccurrences.java == Assignment3
