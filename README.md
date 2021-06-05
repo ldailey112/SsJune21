@@ -16,3 +16,7 @@ Part 3
 FileDirect.java == Assignment1
 AppendToFile == Assignment2
 GetOccurrences.java == Assignment3
+
+Part 4
+Singleton.java == Assignment1
+
