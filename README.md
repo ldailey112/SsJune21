@@ -23,3 +23,7 @@ DeadLock.java == Assignment2
 ThreadAssignment.java == Assignment3
 Line.java && LineTest.java == Assignment4
 
+Part 5
+Lambdas.java == Lamda part 1
+
+
