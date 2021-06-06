@@ -25,6 +25,7 @@ Line.java && LineTest.java == Assignment4
 
 Part 5
 Lambdas.java == Lambda part 1
-LamdaMain.java && LambdaStreams.java == Lambda part 2
+LamdaMain.java && LambdaStreams.java == Lambda part 2 && 3
+
 
 
