@@ -20,3 +20,4 @@ GetOccurrences.java == Assignment3
 Part 4
 Singleton.java == Assignment1
 DeadLock.java == Assignment2
+Line.java && LineTest.java == Assignment3
