@@ -1,0 +1,111 @@
+Assignment 2: FunctionalGiven a list of non-negative integers, 
+return an integer list of the rightmost digits. (Note: use %)
+rightDigit([1, 22, 93]) → [1, 2, 3]
+rightDigit([16, 8, 886, 8, 1]) → [6, 8, 6, 8, 1]
+rightDigit([10, 0]) → [0, 0]
+
+public List<Integer> rightDigit(List<Integer> num) 
+{
+  nums.replaceAll(n -> n % 10);
+  return num;
+}
+
+Assignment 3: FunctionalGiven a list of integers, return a list 
+where each integer is multiplied by 2.
+doubling([1, 2, 3]) → [2, 4, 6]
+doubling([6, 8, 6, 8, -1]) → [12, 16, 12, 16, -2]
+doubling([]) → []
+
+public List<Integer> doubling(List<Integer> num) 
+{
+  nums.replaceAll(n -> n * 2);
+  return num;
+}
+
+Assignment 4: FunctionalGiven a list of strings, return a list 
+where each string has all its "x" removed.
+noX(["ax", "bb", "cx"]) → ["a", "bb", "c"]
+noX(["xxax", "xbxbx", "xxcx"]) → ["a", "bb", "c"]
+noX(["x"]) → [""]
+
+public List<String> noX(List<String> strings) 
+{
+  strings.replaceAll(n -> n.replace("x", ""));
+  return strings;
+}
+
+Assignment 5: RecursionGiven an array of ints, is it possible to 
+choose a group of some of the ints, such that the group sums to the 
+given target, with this additional constraint: 
+if there are numbers in the array that are adjacent and the 
+identical value, they must either all be chosen, or none of them 
+chosen. For example, with the array {1, 2, 2, 2, 5, 2}, 
+either all three 2's in the middle must be chosen or not, 
+all as a group. (one loop can be used to find the extent of the 
+identical values).
+groupSumClump(0, [2, 4, 8], 10) → true
+groupSumClump(0, [1, 2, 4, 8, 1], 14) → true
+groupSumClump(0, [2, 4, 4, 8], 14) → false
+
+public boolean groupSumClump(int start, int[] num, int target) 
+{
+    if(start >= num.length)
+        return target == 0;
+          
+    int i = start;
+    int sum = 0;
+    
+    while(i < num.length && num[start] == num[i]) {
+        sum += num[i];
+        i++;
+    }
+                              
+    if(groupSumClump(i, num, target - sum))
+        return true;
+                                        
+    if(groupSumClump(i, num, target))
+        return true;
+                                                  
+    return false;
+}
+
+Assignment 6: SingletonFix the below Singleton class:
+import java.math.BigDecimal;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.Statement;
+
+public static class SampleSingleton {
+private static Connection conn = null;
+
+public static class SampleSingleton 
+{
+private Database
+{
+}
+public static Database getInstance()
+{
+if(dbInstance==null
+{
+dbInstance = new Database();
+}
+return dbInstance;
+}
+public  Connection getConn(){
+
+if(conn==null){
+    try {
+ //         String host = "c:abcd:laura://localhost:1527/yourdatabasename";
+ //         String username = "yourusername";
+ //         String pass = "yourpassword";
+  //        conn = DriverManager.getConn( host, username, password );
+   } 
+   catch (SQLException ex) 
+   {
+       Logger.getLogger(Database.class.getName()).log(Level.SEVERE, null, ex);
+   }
+        }
+
+        return conn;
+
