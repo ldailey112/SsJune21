@@ -28,6 +28,7 @@ Lambdas.java == Lambda part 1
 LamdaMain.java && LambdaStreams.java == Lambda part 2 && 3
 Date-Time == Date-Time API Questions
 Lambda.java && Main.java == Wk1_Assignment- Assignment1
+Assignments2-6 == Wk1_Assignment - Assignments 1-6
 
 
 
